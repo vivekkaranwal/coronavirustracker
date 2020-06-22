@@ -15,7 +15,5 @@ body{
 p{
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-      outline: white 2px solid;
-      text-align: center;
       font-size: large;
 }
