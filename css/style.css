@@ -20,9 +20,9 @@ p{
 }
 a{
     text-decoration: underline;
-    padding: 230px;
+    
     color: white;
-    font-size: large;
+    
 }
 a:hover{
     color: black;
