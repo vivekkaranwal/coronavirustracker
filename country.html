@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Covid-19 World Meter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container-fluid bg-info text-center p-5 my-3" >
+      <h1 >Covid-19 World Meter</h1>
+      <a  href="country.html">Covid-19 World Meter</a>
+      <a href="index.html">Covid-19 Indian Meter</a>
+    </div>
+ 
+    
+            <div class="col-1  mr-5 row text-info confrimedcase" id="NewConfirmed">
+                <h5>NewConfirmed</h5>
+                 <p id="NewConfirmeds" ></p>
+            </div>
+            <div class="col-1 mr-5 row text-warning confrimedcase" id="TotalConfirmed">
+                <h5>TotalConfirmed</h5>
+                 <p id="TotalConfirmeds"></p>
+            </div>
+            <div class="col-1 mr-5 row text-success confrimedcase" id="NewRecovered">
+                <h5>NewRecovered</h5>
+                 <p id="NewRecovereds" ></p>
+            </div>
+            <div class="col-1 mr-5 row text-success confrimedcase" id="TotalRecovered">
+                <h5>TotalRecovered</h5>
+                 <p id="TotalRecovereds" ></p>
+            </div>
+            <div class="col-1 mr-5 row danger confrimedcase " id="NewDeaths">
+                <h5>NewDeaths</h5>
+                 <p id="NewDeathss" ></p>
+            </div>
+            <div class="col-1 mr-5 row danger confrimedcase " id="TotalDeaths">
+                <h5>TotalDeaths</h5>
+                 <p id="TotalDeathss" ></p>
+            </div>
+         
+            <div class="col-1 row text-light text-right " id="SateCase">
+                <h5>Countery</h5>
+                 <p id="countery" ></p>
+            </div>
+        
+  
+
+  
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="js/apps.js"></script>
+</body>
+</html>
